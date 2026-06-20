@@ -2,6 +2,7 @@ streamlit
 pandas
 numpy
 openpyxl
+seaborn
 xlrd
 scikit-learn
 matplotlib
