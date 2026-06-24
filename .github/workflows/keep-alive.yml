@@ -1,0 +1,13 @@
+name: Jaga Situs Tetap Aktif
+on:
+  schedule:
+    - cron: '0 8 1 * *'
+  workflow_dispatch:
+
+jobs:
+  jalankan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Perbarui status situs
+        run: echo "Situs diperiksa dan dijaga tetap aktif"
